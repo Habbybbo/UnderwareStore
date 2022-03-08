@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using UnderwareStore.Core.Constants;
 using UnderwareStore.Models;
 
 namespace UnderwareStore.Controllers
@@ -15,6 +16,8 @@ namespace UnderwareStore.Controllers
 
         public IActionResult Index()
         {
+            ViewData[MessageConstant.ErrorMessage] = "Ups...Something has broken!";
+
             return View();
         }
 
