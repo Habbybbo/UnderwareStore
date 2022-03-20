@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderwareStore", "UnderwareStore\UnderwareStore.csproj", "{19FB28D3-F89B-4657-A5C0-CD66C1D3E028}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnderwareStore", "UnderwareStore\UnderwareStore.csproj", "{19FB28D3-F89B-4657-A5C0-CD66C1D3E028}"
 	ProjectSection(ProjectDependencies) = postProject
 		{DF0D5317-8392-46C2-82CC-81CC12F51038} = {DF0D5317-8392-46C2-82CC-81CC12F51038}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderwareStore.Core", "UnderwareStore.Core\UnderwareStore.Core.csproj", "{DF0D5317-8392-46C2-82CC-81CC12F51038}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnderwareStore.Core", "UnderwareStore.Core\UnderwareStore.Core.csproj", "{DF0D5317-8392-46C2-82CC-81CC12F51038}"
 	ProjectSection(ProjectDependencies) = postProject
 		{00079334-EF5D-4572-B463-C2B106DA288A} = {00079334-EF5D-4572-B463-C2B106DA288A}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderwareStore.Infrastructure", "UnderwareStore.Infrastructure\UnderwareStore.Infrastructure.csproj", "{00079334-EF5D-4572-B463-C2B106DA288A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnderwareStore.Infrastructure", "UnderwareStore.Infrastructure\UnderwareStore.Infrastructure.csproj", "{00079334-EF5D-4572-B463-C2B106DA288A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
